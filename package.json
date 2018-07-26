@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "ts-node-esm-source-maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "mocha --opts mocha.opts \"src/**/*.spec.*\"",
+    "test:watch": "mocha --watch --opts mocha.opts \"src/**/*.spec.*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittaakos/ts-node-esm-source-maps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittaakos/ts-node-esm-source-maps/issues"
+  },
+  "homepage": "https://github.com/kittaakos/ts-node-esm-source-maps#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^8.10.20",
+    "chai": "^4.1.2",
+    "esm": "^3.0.72",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "monaco-editor-core": "^0.13.2",
+    "vscode-uri": "^1.0.5"
+  }
+}
